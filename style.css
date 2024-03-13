@@ -82,7 +82,7 @@ button
 	width:50px;
    border-radius:0.2em;
    background-color:transparent;
-   border:2px solid #red;
+   border:2px solid red;
 
 }
 button:hover
@@ -91,7 +91,7 @@ button:hover
    width:50px;
    border-radius:0.2em;
    background-color:bisque;
-   border:2px solid #red;
+   border:2px solid red;
 }
 
 .Content-div
@@ -120,8 +120,7 @@ button:hover
 	margin-top:3px;
 	cursor:pointer;
     text-align:center;
-  
-    right:30%;
+    right:50%;
 }
 .info
 {
@@ -138,4 +137,11 @@ button:hover
 {
 background-color:none;
 	text-align:center;
+}
+.Tik
+{
+	position:absolute;
+	width:5em;
+	height:5em;
+	background-color:black;
 }

@@ -13,18 +13,22 @@ function ekle()
    if(girisform.value!="")
    {
 
-   	sayac+=1;
-   	let sil=document.createElement("div");
-   	sil.style.position="fixed";
-   	sil.textContent="sil";
-   	sil.classList.add('sil');
-    let li=document.createElement('li');
+   sayac+=1;
+   let sil=document.createElement("div");
+   sil.style.position="fixed";
+   sil.textContent="sil";
+   sil.classList.add('sil');
+   let li=document.createElement('li');
    li.textContent=sayac+"."+girisform.value;
    ul.style.fontsize="2em";
    li.style.height="1.5em";
- 
+   
+   
+
    	/* eklenilen satır silme butonunuda satırın yanında tanımlanması için satırın içine eklenmesi gerekiyor aşağıda ekledim*/
+     
    li.appendChild(sil);
+
    ul.appendChild(li);
    girisform.value="";
 
