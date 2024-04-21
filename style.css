@@ -1,147 +1,154 @@
-Body
-{
-	margin:0;
-	padding:0;
-	background-color:#9fa8da;
-	/* bir element ya da divdeki içeriği üstten alttan sağdan soldan ortalamak için alttaki bu üç kod yazılır */
-	display:flex;
-	align-items:center;
-	flex-direction:column;
-	font-family:monospace;
-}
-li
-{
-	list-style:none;
-}
-.container 
-{
-	position:absolute;
-	width:700px;
-	height:650px;
-	background-color:#E0FFFF;
-	display:flex;
-	align-items:center;
-	flex-direction:column;
-	margin-top:3em;
-		border-radius:0.4em;
-}
-h1 
-{
-
-	
-	width:75%;
-	border-radius:0.2em;
-	height:1.6em;
-    color:#CD5C5C;
-	text-align:center;
-	margin-top:5px;
-    
+Body {
+	margin: 0;
+	padding: 0;
+	background-color: #90EE90;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	font-family: monospace;
 }
 
-input
-{
-	width:450px;
-	height:50px;
-	border-radius:0.2em;
-	margin-top:1px;
-	background-color:darkgray;
-	border:none;
-	font-size:1em;
-}
-.temizle
-{
-position:absolute;
-	top:92%;
-	width:70%;
-	height:5%;
-		background-color:brown;
-		margin-bottom:0%;
-		color:white;
-		border-radius:0.2em;
-		font-size:1em;
-
-}
-.temizle:hover 
-{
-
-position:absolute;
-	top:92%;
-	left:15%;
-	width:70%;
-	height:5%;
-	background-color:brown;
-		margin-bottom:0%;
-		color:white;
-		border-radius:0.2em;
-		font-size:1em;	
-
-}
-button
-{
-	height:50px;
-	width:50px;
-   border-radius:0.2em;
-   background-color:transparent;
-   border:2px solid red;
-
-}
-button:hover
-{
-   height:50px;
-   width:50px;
-   border-radius:0.2em;
-   background-color:bisque;
-   border:2px solid red;
+li {
+	list-style: none;
 }
 
-.Content-div
-{
-	position:absolute;
-	height:450px;
-	width:520px;
-	background-color:bisque;
-	margin-top:140px;
-	border-radius:0.2em;
-	font-size:20px;
-	overflow:scroll;
+.container {
+	position: absolute;
+	top: 2.5%;
+	width: 700px;
+	height: 850px;
+	background-color: bisque;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 3em;
+	border-radius: 0.4em;
 }
-.Content-div ul li 
-{
-	margin-top:10px;
-}
-.sil 
-{
-	height:25px;
-	width:42px;
-	background-color:red;
-	display:inline-block; /*Listedeki satırın yanında yan yana eklenmesi için yazılan kod*/
-	color:white;
-	margin-right:100px;
-	margin-top:3px;
-	cursor:pointer;
-    text-align:center;
-    right:50%;
-}
-.info
-{
-	position:absolute;
-	width:110px;
-	height:50px;
-	right:10%;
-	top:10%;
-	text-align:center;
-	color:#90EE90;
+
+h1 {
+
+
+	width: 75%;
+	border-radius: 0.2em;
+	height: 1.6em;
+	color: #CD5C5C;
+	text-align: center;
+	margin-top: 5px;
+	position: absolute;
+	top: 7%;
 
 }
-.notification
-{
-background-color:none;
-	text-align:center;
+
+input {
+	width: 450px;
+	height: 50px;
+	border-radius: 0.2em;
+	margin-top: 150px;
+	background-color: transparent;
+	border: none;
+	border-bottom: 2px solid #CD5C5C;
+	font-size: 1em;
+	margin-left: 2em;
+	color: #CD5C5C;
 }
-.Tik
-{
-	position:absolute;
-	width:5em;
-	height:5em;
-	background-color:black;
+
+.temizle {
+	position: absolute;
+	top: 75%;
+	left: 10.5%;
+	width: 74%;
+	height: 5%;
+	background-color: #CD5C5C;
+	margin-bottom: 0%;
+	border-radius: 0.2em;
+	font-size: 1em;
+
+}
+
+.temizle:hover {
+
+	position: absolute;
+	top: 75%;
+	left: 10.5%;
+	width: 74%;
+	height: 5%;
+	background-color: #CD5C5C;
+	margin-bottom: 0%;
+	border-radius: 0.2em;
+	font-size: 1em;
+
+}
+
+button {
+	width: 6em;
+	height: 3.5em;
+	border-radius: 0.2em;
+	background-color: transparent;
+	background-color: #CD5C5C;
+	border-radius: 0.5em;
+	margin-left: 1em;
+	margin-top: 3em;
+
+
+}
+
+button:hover {
+	width: 6em;
+	height: 3.5em;
+	border-radius: 0.2em;
+	background-color: transparent;
+	background-color: #CD5C5C;
+	border-radius: 0.5em;
+	margin-bottom: 1em;
+}
+
+.Content-div {
+	position: absolute;
+	height: 450px;
+	width: 520px;
+	background-color: #CD5C5C;
+	margin-top: 220px;
+	border-radius: 0.2em;
+	font-size: 20px;
+	overflow-y: scroll;
+}
+
+.Content-div ul li {
+	margin-top: 10px;
+}
+
+.sil {
+	height: 25px;
+	width: 42px;
+	background-color: #CD5C5C;
+	display: inline-block;
+	color: white;
+	margin-right: 100px;
+	margin-top: 3px;
+	cursor: pointer;
+	text-align: center;
+	right: 50%;
+}
+
+.info {
+	position: absolute;
+	width: 110px;
+	height: 50px;
+	right: 10%;
+	top: 10%;
+	text-align: center;
+	color: #90EE90;
+
+}
+
+.notification {
+	background-color: none;
+	text-align: center;
+}
+
+.Tik {
+	position: absolute;
+	width: 5em;
+	height: 5em;
+	background-color: #CD5C5C;
 }
